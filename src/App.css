@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 300px 300px 300px;
+  height: 900px;
+}
+
+.card{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid darkgoldenrod;
+  border-radius: 5px;
+}
+
+img {
+  width: 50%;
+  height: 60%;
+}
+
+.motor {
+  color: olivedrab;
+}
+.color {
+  color: orangered;
+}
+
+.card_books {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid darkgoldenrod;
+  border-radius: 5px;
+}
+
+.title_book {
+  text-align: left;
+  font-size: 0.8rem;
+}
